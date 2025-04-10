@@ -1,3 +1,4 @@
 <?php
-    $hello = "Hello";
+    echo "hello world";
+    require './views/pages/index.view.php';
 ?>
