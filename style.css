@@ -1,3 +1,26 @@
 body{
     background-color: cornflowerblue;
 }
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+}
+
+#logo{
+    position: relative;
+    left: 0;
+}
+
+#section{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#navbutton{
+    padding: 2em;
+    border: solid 2px black;
+}
